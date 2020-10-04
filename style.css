@@ -21,7 +21,7 @@ header{
 }
 
 header a{
-	color;#ffffff;
+	color:#ffffff;
 	text-decoration:none;
 	font-size:16px;
 }
@@ -32,5 +32,15 @@ header ul{
 	padding: 0 0 0 0;
 }
 
+/* Dynamic Image Resize **/
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
 
-	
+footer{
+	background:#255cf4;
+	color:#ffffff;
+	border-top:#000000 3px solid;
+}
