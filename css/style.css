@@ -2,6 +2,7 @@ body{
 	font: 15px/1.5 Arial, Helvetica, sans-serif;
 	padding: 0;
 	background-color: #e7edfe;
+	min-height: 70px;
 }
 
 /* Global **/
@@ -9,6 +10,7 @@ body{
 	width:80%;
 	margin:auto;
 	overflow:hidden;
+	min-height: 70px;
 }
 
 .branding{
@@ -17,13 +19,14 @@ body{
 	overflow:hidden;
 	text-align: left;
 	color:#6a2c91;
+	min-height: 70px;
 }
 
 /* Header **/
 header{
 	background:white;
 	color:black;
-	padding-top:30px;
+	padding-top:0;
 	min-height:70px;
 	border-bottom:#000000 3px solid;
 	text-align: center;
@@ -33,13 +36,15 @@ header a{
 	color:#6a2c91;
 	text-decoration:none;
 	font-size:16px;
+	min-height: 70px;
 }
 
 header ul{
 	float:right;
 	display:;
 	padding: 0 0 0 0;
-	text-align: left
+	text-align: left;
+	min-height: 70px;
 }
 
 footer{
@@ -47,6 +52,8 @@ footer{
 	color:#6a2c91;
 	border-top:#000000 3px solid;
 	text-align: center;
+	min-height: 70px;
+	padding: 0;
 }
 
 /* Dynamic Image Resize **/
@@ -64,6 +71,7 @@ img {
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
+	min-height: 70px;
 }
 
 /* Add a hover effect if you want */
