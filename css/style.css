@@ -1,0 +1,72 @@
+body{
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+	padding: 0;
+	background-color: #e7edfe;
+}
+
+/* Global **/
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+.branding{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+	text-align: left;
+	color:#6a2c91;
+}
+
+/* Header **/
+header{
+	background:white;
+	color:black;
+	padding-top:30px;
+	min-height:70px;
+	border-bottom:#000000 3px solid;
+	text-align: center;
+}
+
+header a{
+	color:#6a2c91;
+	text-decoration:none;
+	font-size:16px;
+}
+
+header ul{
+	float:right;
+	display:;
+	padding: 0 0 0 0;
+	text-align: left
+}
+
+footer{
+	background:white;
+	color:#6a2c91;
+	border-top:#000000 3px solid;
+	text-align: center;
+}
+
+/* Dynamic Image Resize **/
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
